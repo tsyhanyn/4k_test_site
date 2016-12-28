@@ -462,11 +462,6 @@ template {
   display: none;
 }
 
-.clear {
-	clear: both;
-}
-
-
 @media only screen and (min-width: 768px) {
     .wrapper {
         max-width: 900px;
@@ -485,9 +480,20 @@ li {
 	list-style-type: none;
 }
 
+.header {
+    overflow: hidden; /* todo: clearfix*/
+    background-color: black;
+}
+
 .header-logo {
     background-color: red;
     float: left;
+    font: normal 24px Gillsans, sans-serif;
+}
+
+.header-logo-text {
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .main-navigation {
@@ -495,6 +501,14 @@ li {
     float: right;
 }
 
-.main-navigation-link {
+.main-navigation li {
     display: inline-block;
+    padding: 23px 0;
+}
+
+.main-navigation-link {
+    font: normal 16px Gillsans, sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
 }
