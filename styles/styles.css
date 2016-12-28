@@ -466,13 +466,13 @@ template {
 	clear: both;
 }
 
-/*
-@media only screen and (min-width: 768px) */
-.site-wrapper {
-    max-width: 1600px;
-    padding-left: 30px;
-    padding-right: 30px;
-	margin: 0 auto;
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        max-width: 900px;
+        width: 100%;
+    	margin: 0 auto;
+    }
 }
 
 
@@ -485,3 +485,16 @@ li {
 	list-style-type: none;
 }
 
+.header-logo {
+    background-color: red;
+    float: left;
+}
+
+.main-navigation {
+    background-color: purple;
+    float: right;
+}
+
+.main-navigation-link {
+    display: inline-block;
+}
