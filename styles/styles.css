@@ -466,18 +466,22 @@ template {
     .wrapper {
         max-width: 1170px;
         width: 100%;
-    	margin: 0 auto;
+        margin: 0 auto;
     }
 }
 
 
 ul {
     margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
 li {
-	list-style-type: none;
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
 }
 
 .header {
@@ -527,4 +531,24 @@ li {
     color: #4bcaff;
     border: 2px solid #4bcaff;
     padding: 10px 18px;
+}
+
+.main-banner {
+    background: url(../images/home-banner.jpg) no-repeat;
+    background-size: cover;
+    padding: 25% 0 15%;
+}
+
+.main-banner-slogan p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-banner-slogan span {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 10px 20px;
+    display: inline-block;
+    font: normal 30px Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
